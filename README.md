@@ -14,7 +14,7 @@ In this study, we aimed to map the prevalence and distribution of antiphase defe
 
 Methods: 
 
-cold-adapted bacterial genome sequences downloaded from five databases MarRef v.1.7, MarDB v.1.6, Ocean Microbiomics Database (OMD) v.1.1, BacDive (https://bacdive.dsmz.de/), and TEMPURA (http://togodb.org/db/tempura). 
+cold-adapted bacterial genome sequences downloaded from five databases MarRef v.1.7 (https://sfb.mmp2.sigma2.no/), MarDB v.1.6 (https://sfb.mmp2.sigma2.no/), Ocean Microbiomics Database (OMD) (https://microbiomics.io/ocean/) v.1.1, BacDive (https://bacdive.dsmz.de/), and TEMPURA (http://togodb.org/db/tempura). 
 
 Filtering:
 Genomes from bacteria  isolated only above 60°N and below 50°S, where ocean surface temperatures <10°C
