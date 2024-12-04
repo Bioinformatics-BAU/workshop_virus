@@ -1,6 +1,6 @@
 # workshop_virus
 
-Workshop on Antiphage defense systems in cold-adapted bacteria with focus on CRISPR-Cas systems
+#Prediction of Antiphage defense systems in cold-adapted bacteria, with focus on CRISPR-Cas systems 
 
 Organisms that inhabit cold environments are commonly classified into two overlapping groups: psychrophiles and psychrotolerants (or psychrotrophs). Psychrophiles have an optimal growth temperature of around 15°C and a maximum growth temperature of 20°C, while psychrotolerants grow optimally around 20°C and have a maximum growth temperature of 30°C. Psychrophiles predominate in marine ecosystems, whereas bacteria isolated from cold terrestrial environments are most often found to be psychrotolerant. Here, we employ the term ‘Cold-adapted bacteria’ referring to both psychrophilic and psychrotolerant bacteria. 
 
@@ -25,8 +25,8 @@ All genomes were taxonomically reclassified using the GTDB-Tk (v2.3.0) workflow 
 
 938 genomes were downloaded from the five databases for downstream analysis
 
-CRISPRCasTyper (cctyper v1.8.0) at default parameters [subtype probability above 0.754]. Only CRISPRs part of an intact CRISPR-Cas loci were included
-Other prokaryotic antiphage defense systems were predicted using Prokaryotic Antiphage Defense LOCator: PADLOC (v1.1.4) using parameter E-value <0.01 and coverage >0.8
+CRISPRCasTyper (cctyper v1.8.0) (https://crisprcastyper.crispr.dk/#/submit) at default parameters [subtype probability above 0.754]. Only CRISPRs part of an intact CRISPR-Cas loci were included
+Other prokaryotic antiphage defense systems were predicted using Prokaryotic Antiphage Defense LOCator: PADLOC (v1.1.4) (https://padloc.otago.ac.nz/padloc/) using parameter E-value <0.01 and coverage >0.8
 Phylogenetic trees were plotted using phyloseq and ggtree R package. 
 Principal component analysis (PCA) was performed to examine possible correlations between the low prevalence of CRISPR-Cas systems against the high prevalence of other systems, such as dXTPases. PCA analysis was performed at the taxonomic rank "family" using the factoMineR v2.8 and factoextra v1.0.7 packages in R
 
